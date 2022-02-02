@@ -1,4 +1,3 @@
-
 //Custom Implementation of slice and Splice
 
 
