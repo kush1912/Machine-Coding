@@ -7,12 +7,13 @@ import { Router } from '@angular/router';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router) { }
 
   ngOnInit(): void {
   }
 
-  public handleClick(componentName:string){
+  public handleClick(componentpath:string){
+    this.route.navigate([`/${componentpath}`]);
   }
 
 }

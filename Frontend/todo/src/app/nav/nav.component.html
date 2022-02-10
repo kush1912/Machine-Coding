@@ -7,11 +7,12 @@
     </button>
   
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item nav-item active"><a href="#" class="nav-link">Timer</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Custom Directives</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Forms Array</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Realtime Comment System</a></li>
+      <ul class="navbar-nav ms-auto">o0
+        <li class="nav-item nav-item active" (click)="handleClick('timer')"><a class="nav-link">Timer</a></li>
+        <li class="nav-item" (click)="handleClick('customDirectives')"><a class="nav-link">Custom Directives</a></li>
+        <li class="nav-item" (click)="handleClick('formsarray')"><a class="nav-link">Forms Array</a></li>
+        <li class="nav-item" (click)="handleClick('routeGuards')"><a class="nav-link">Route Guards Demo</a></li>
+        <li class="nav-item" (click)="handleClick('todo')"><a class="nav-link">To-do</a></li>
       </ul>
     </div>
   </div>

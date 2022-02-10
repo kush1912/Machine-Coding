@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { TimerComponent } from './timer/timer.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { RouteGuardsDemoComponent } from './route-guards-demo/route-guards-demo.component';
+import { FormsArrayComponent } from './forms-array/forms-array.component';
+import { CustomDirectivesComponent } from './custom-directives/custom-directives.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +16,9 @@ import { ToDoListComponent } from './to-do-list/to-do-list.component';
     NavComponent,
     TimerComponent,
     ToDoListComponent,
+    RouteGuardsDemoComponent,
+    FormsArrayComponent,
+    CustomDirectivesComponent,
   ],
   imports: [
     BrowserModule,
