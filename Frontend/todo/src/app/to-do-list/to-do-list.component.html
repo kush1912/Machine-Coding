@@ -1,0 +1,9 @@
+<h1>To-do-list!</h1>
+<div>
+    <input type="text" [(ngModel)]="item"> 
+    <button (click)="addItem()">Add</button>
+    <ul *ngFor="let item of list">
+        <li>{{item}} <span (click)="deleteItem(item)"><button>-</button></span></li>
+    </ul>
+</div>
+<br>

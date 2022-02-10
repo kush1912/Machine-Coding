@@ -1,1 +1,37 @@
-<p>nav works!</p>
+<nav class = "navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a href="#" class="navbar-brand">Angular Apps</a>
+
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item nav-item active"><a href="#" class="nav-link">Timer</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Custom Directives</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Forms Array</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Realtime Comment System</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- 
+  navbar: class for applying nav classes
+  navbar-expand-lg: used for responsiveness to navbars(internally uses flex inside; if not applied the content of ul items will appear in columns rather than rows.)
+  navbar-Brand: used for logo standard-size: 16px;
+    - works best with <a></a> tags, but could be applied to spans and other elements as well.
+
+  A navbar generally has a brandname and menu items generally represented by l
+    - ml-auto : pushes the menu items to the left side of the page
+
+  Bootstrap 5 also has a flexbox Navbar, and introduces new RTL support. For this reason the concept of "left" and "right" has been replaced with "start" and "end".
+      ml-auto => ms-auto
+      mr-auto => me-auto
+      Also note that data-toggle and data-target have changed too:
+
+      data-toggle => data-bs-toggle
+      data-target => data-bs-target
+
+ -->
