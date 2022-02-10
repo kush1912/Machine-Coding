@@ -5,6 +5,7 @@ import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { FormsArrayComponent } from './forms-array/forms-array.component';
 import { CustomDirectivesComponent } from './custom-directives/custom-directives.component'; 
 import { RouteGuardsDemoComponent } from './route-guards-demo/route-guards-demo.component';
+import { RxjsDemoComponent } from './rxjs-demo/rxjs-demo.component';
 
 const routes: Routes = [
   {path:"timer", component:TimerComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'formsarray', component:FormsArrayComponent},
   {path:'customDirectives', component:CustomDirectivesComponent},
   {path:'routeGuards', component:RouteGuardsDemoComponent},
+  {path:'rxjs', component:RxjsDemoComponent},
   {path:'', pathMatch:'full', component:TimerComponent},
   {path:'**', pathMatch:'full', component:TimerComponent}
 ];

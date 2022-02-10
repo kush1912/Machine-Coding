@@ -9,6 +9,7 @@ import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { RouteGuardsDemoComponent } from './route-guards-demo/route-guards-demo.component';
 import { FormsArrayComponent } from './forms-array/forms-array.component';
 import { CustomDirectivesComponent } from './custom-directives/custom-directives.component';
+import { RxjsDemoComponent } from './rxjs-demo/rxjs-demo.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { CustomDirectivesComponent } from './custom-directives/custom-directives
     RouteGuardsDemoComponent,
     FormsArrayComponent,
     CustomDirectivesComponent,
+    RxjsDemoComponent,
   ],
   imports: [
     BrowserModule,
